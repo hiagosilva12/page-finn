@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2CB3F3;
+}
+
+.title {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.paragraph-title {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.rosto-branco {
+    border-radius: 20% 20% 0 0;
+    width: 600px;
+    height: 416px;
+    background-color: white;
+    position: absolute;
+    top: 210px;
+    left: 350px;
+}
+
+.rosto-bege {
+    border-radius: 50%;
+    background-color: #FFE1C9;
+    width: 470px;
+    height: 340px;
+    position: absolute;
+    top: 250px;
+    left: 420px;
+}
+
+.olho-esq {
+    border-radius: 50%;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 320px;
+    left: 540px;
+}
+
+.olho-dir {
+    border-radius: 50%;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 320px;
+    left: 730px;
+}
+
+.btn-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: solid black;
+    top: 420px;
+    left: 570px;
+}
+
+.btn-senha {
+    position: absolute;
+    border: solid black;
+    top: 440px;
+    left: 570px;
+}
+
+.btn-entrar {
+    position: absolute;
+    background-color: green;
+    font-size: 50px;
+    top: 640px;
+    left: 590px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+}
